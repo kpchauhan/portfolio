@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Social Media Slide In</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f4f4f4;
+    }
+
+    .social-container {
+      position: relative;
+      display: flex;
+      gap: 15px;
+    }
+
+    .social-container:hover .icon {
+      transform: translateX(0);
+      opacity: 1;
+    }
+
+    .icon {
+      width: 50px;
+      height: 50px;
+      background: #333;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      border-radius: 50%;
+      cursor: pointer;
+      transform: translateX(100px);
+      opacity: 0;
+      transition: transform 0.4s ease, opacity 0.4s ease;
+    }
+
+    .icon:nth-child(1) {
+      transition-delay: 0.1s;
+    }
+    .icon:nth-child(2) {
+      transition-delay: 0.2s;
+    }
+    .icon:nth-child(3) {
+      transition-delay: 0.3s;
+    }
+    .icon:nth-child(4) {
+      transition-delay: 0.4s;
+    }
+  </style>
+
+  <!-- Use Font Awesome CDN for icons -->
+</head>
+<body>
+
+  <div class="social-container">
+    <div class="icon" style="background:#3b5998"><img src="react/fitx/src/assets/icons/facebook-icon.svg"></div>
+    <div class="icon" style="background:#1da1f2"><i class="fab fa-twitter"></i></div>
+    <div class="icon" style="background:#e1306c"><i class="fab fa-instagram"></i></div>
+    <div class="icon" style="background:#0077b5"><i class="fab fa-linkedin-in"></i></div>
+  </div>
+
+</body>
+</html>
