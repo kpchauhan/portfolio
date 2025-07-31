@@ -1,4 +1,4 @@
-# Kalpesh Chauhan - Frontend Developer Portfolio
+# Kalpesh Chauhan - Frontend Developer
 
 ## 👨‍💻 About Me
 
